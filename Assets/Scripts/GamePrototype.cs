@@ -9,15 +9,15 @@ public class GamePrototype : MonoBehaviour{
 	// Use this for initialization
 	public GameObject buttonsContainer;
 	public GameObject lightsContainer;
-	public Transform pathRoot;//public for debug
+	public Transform pathRoot;//public for debug ///////
 	public int roomsCount = 9;
-	public int targetRoom = 3;//public for debug
+	public int targetRoom = 3;//public for debug ////////
 	public int howManyLoops = 10;
 	[Range(.1f,3)]public float speed = 0.7f;
 	public Transform[] buttons;//public for debug
 	public Transform[] lights;//public for debug
-	public List<Transform> path1;//public for debug
-	public GameObject motherfucker1;//public for debug
+	public List<Transform> path1;//public for debug  ////////
+	public GameObject motherfucker1;//public for debug ////////
 
 	Transform nextWayPoint;
 	int nextWayPointIndex=0;
